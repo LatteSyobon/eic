@@ -1,0 +1,11 @@
+{
+  "homepage": "https://lattesyobon.github.io/eic",
+  "1.15.2": {
+    "1.0.0": "Mod is now available"
+  },
+
+  "promos": {
+    "1.15.2-latest": "1.0.0",
+    "1.15.2-recommended": "1.0.0"
+  }
+}
