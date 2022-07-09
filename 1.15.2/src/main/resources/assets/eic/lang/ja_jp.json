@@ -1,4 +1,8 @@
 {
   "itemGroup.eic": "EIC",
-  "item.eic.semi_conductor": "半導体"
+  "item.eic.semi_conductor": "半導体",
+  "item.eic.copper_ingot":  "銅のインゴット",
+  "block.eic.terahertz_ore": "テラヘルツ鉱石",
+  "block.eic.copper_ore": "Copper Ore",
+  "item.eic.silicon": "ケイ素"
 }

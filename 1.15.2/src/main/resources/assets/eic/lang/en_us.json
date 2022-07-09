@@ -1,4 +1,8 @@
 {
   "itemGroup.eic": "EIC",
-  "item.eic.semi_conductor": "Semi Conductor"
+  "item.eic.semi_conductor": "Semi Conductor",
+  "item.eic.copper_ingot":  "Copper Ingot",
+  "block.eic.terahertz_ore": "Terahertz Ore",
+  "block.eic.copper_ore": "Copper Ore",
+  "item.eic.silicon": "Silicon"
 }

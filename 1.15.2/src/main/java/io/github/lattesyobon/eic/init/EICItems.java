@@ -17,7 +17,9 @@ public class EICItems {
         @SubscribeEvent
         public static void registerItems(final RegistryEvent.Register<Item> event) {
             final Item[] item = {
-                    new ItemSemiconductor()
+                    new ItemSemiconductor(),
+                    new ItemSilicon(),
+                    new ItemCopperIngot()
             };
 
             event.getRegistry().registerAll(item);
