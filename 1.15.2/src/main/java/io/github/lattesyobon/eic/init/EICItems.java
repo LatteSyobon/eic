@@ -19,7 +19,11 @@ public class EICItems {
             final Item[] item = {
                     new ItemSemiconductor(),
                     new ItemSilicon(),
-                    new ItemCopperIngot()
+                    new ItemCopperIngot(),
+                    new ItemConductingWire(),
+                    new ItemStoneStick(),
+                    new ItemRasp(),
+                    new ItemStoneCuttingEdge()
             };
 
             event.getRegistry().registerAll(item);

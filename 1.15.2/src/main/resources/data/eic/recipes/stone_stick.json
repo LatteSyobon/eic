@@ -7,14 +7,14 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:diamond"
+      "item": "minecraft:cobblestone"
     },
     "g": {
-      "item": "minecraft:gold_ingot"
+      "item": "minecraft:stick"
     }
   },
   "result": {
-    "item": "minecraft:emerald",
+    "item": "eic:stone_stick",
     "count": 1
   }
 }

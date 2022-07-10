@@ -4,5 +4,8 @@
   "item.eic.copper_ingot":  "Copper Ingot",
   "block.eic.terahertz_ore": "Terahertz Ore",
   "block.eic.copper_ore": "Copper Ore",
-  "item.eic.silicon": "Silicon"
+  "item.eic.silicon": "Silicon",
+  "item.eic.rasp": "Rasp",
+  "item.eic.conducting_wire": "Conducting Wire",
+  "item.eic.stone_stick": "Stone Stick"
 }

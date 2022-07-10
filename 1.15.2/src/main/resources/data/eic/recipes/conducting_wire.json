@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "iii",
+    "RRR",
+    "iii"
+  ],
+  "key": {
+    "i": {
+      "item": "eic:copper_ingot"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "item": "eic:conducting_wire",
+    "count": 1
+  }
+}
