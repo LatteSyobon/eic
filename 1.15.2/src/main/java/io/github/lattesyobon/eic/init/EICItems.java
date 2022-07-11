@@ -27,6 +27,9 @@ public class EICItems {
     //Tools
     public static final Item TERAHERTZ_PICKAXE = new ItemTerahertzPickaxe();
     public static final Item TERAHERTZ_SWORD = new ItemTerahertzSword();
+    public static final Item TERAHERTZ_SHOVEL = new ItemTerahertzShovel();
+    public static final Item TERAHERTZ_AXE = new ItemTerahertzAxe();
+    public static final Item TERAHERTZ_HOE = new ItemTerahertzHoe();
     public static final Item RASP = new ItemRasp();
     // Boxes
     public static final Item ELECTRICAL_COMPONENT_BOX = new ItemElectricalComponentBox();
@@ -51,6 +54,9 @@ public class EICItems {
                     //Tools
                     TERAHERTZ_PICKAXE,
                     TERAHERTZ_SWORD,
+                    TERAHERTZ_SHOVEL,
+                    TERAHERTZ_AXE,
+                    TERAHERTZ_HOE,
                     RASP,
                     //Boxes
                     ELECTRICAL_COMPONENT_BOX,

@@ -14,7 +14,7 @@ public class EICTab extends ItemGroup {
 
     @Override
     public ItemStack createIcon() {
-        ItemStack itemStack = new ItemStack(new ItemSemiconductor());
+        ItemStack itemStack = new ItemStack(EICItems.SILICON_WAFER);
         return itemStack;
     }
 }
