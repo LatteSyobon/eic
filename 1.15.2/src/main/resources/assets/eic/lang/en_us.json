@@ -1,14 +1,19 @@
 {
   "itemGroup.eic": "EIC",
   "item.eic.semi_conductor": "Semi Conductor",
-  "item.eic.copper_ingot":  "Copper Ingot",
-  "block.eic.terahertz_ore": "Terahertz Ore",
-  "block.eic.copper_ore": "Copper Ore",
-  "item.eic.silicon": "Silicon",
-  "item.eic.rasp": "Rasp",
-  "item.eic.conducting_wire": "Conducting Wire",
   "item.eic.stone_stick": "Stone Stick",
+  "item.eic.conducting_wire": "Conducting Wire",
+  "item.eic.stone_cutting_edge": "Stone Cutting Edge",
+  "item.eic.silicon_wafer": "Silicon Wafer",
+
+  "item.eic.silicon": "Silicon",
+  "item.eic.copper_ingot":  "Copper Ingot",
+  "item.eic.rasp": "Rasp",
+
   "item.eic.electrical_component_box": "Electrical Component Box",
   "item.eic.semi_conductor_box": "Semiconductor Box",
-  "item.eic.mystery_component_box": "Mystery Component Box"
+  "item.eic.mystery_component_box": "Mystery Component Box",
+
+  "block.eic.terahertz_ore": "Terahertz Ore",
+  "block.eic.copper_ore": "Copper Ore"
 }

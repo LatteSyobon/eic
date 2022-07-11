@@ -1,14 +1,20 @@
 {
   "itemGroup.eic": "EIC",
   "item.eic.semi_conductor": "半導体",
-  "item.eic.copper_ingot":  "銅のインゴット",
-  "block.eic.terahertz_ore": "テラヘルツ鉱石",
-  "block.eic.copper_ore": "銅鉱石",
-  "item.eic.silicon": "ケイ素",
-  "item.eic.rasp": "やすり",
-  "item.eic.conducting_wire": "導線",
   "item.eic.stone_stick": "石の棒",
+  "item.eic.conducting_wire": "導線",
+  "item.eic.stone_cutting_edge": "石の刃",
+  "item.eic.sliced_silicon_disk": "切断済みシリコンディスク",
+  "item.eic.silicon_wafer": "シリコンウェハー",
+
+  "item.eic.silicon": "シリコン",
+  "item.eic.copper_ingot":  "銅のインゴット",
+  "item.eic.rasp": "やすり",
+
   "item.eic.electrical_component_box": "電気部品封入箱",
   "item.eic.semi_conductor_box": "半導体封入箱",
-  "item.eic.mystery_component_box": "謎の電気部品封入箱"
+  "item.eic.mystery_component_box": "謎の部品封入箱",
+
+  "block.eic.terahertz_ore": "テラヘルツ鉱石",
+  "block.eic.copper_ore": "銅鉱石"
 }

@@ -15,27 +15,45 @@ import net.minecraftforge.registries.ObjectHolder;
 public class EICItems {
 
     // Electrical components
-    public static Item SEMI_CONDUCTOR = new ItemSemiconductor();
+    public static final Item STONE_STICK = new ItemStoneStick();
+    public static final Item SEMI_CONDUCTOR = new ItemSemiconductor();
+    public static final Item CONDUCTING_WIRE = new ItemConductingWire();
+    public static final Item STONE_CUTTING_EDGE = new ItemStoneCuttingEdge();
+    public static final Item SLICED_STONE_DISK = new ItemSlicedSiliconDisk();
+    public static final Item SILICON_WAFER = new ItemSiliconWafer();
+    //Ores
+    public static final Item SILICON = new ItemSilicon();
+    public static final Item COPPER_INGOT = new ItemCopperIngot();
+    //Tools
+    public static final Item TERAHERTZ_PICKAXE = new ItemTerahertzPickaxe();
+    public static final Item TERAHERTZ_SWORD = new ItemTerahertzSword();
+    public static final Item RASP = new ItemRasp();
     // Boxes
-    public static Item SEMI_CONDUCTOR_BOX = new ItemSemiConductorBox();
-    public static Item MYSTERY_COMPONENT_BOX = new ItemMysteryComponentBox();
+    public static final Item ELECTRICAL_COMPONENT_BOX = new ItemElectricalComponentBox();
+    public static final Item SEMI_CONDUCTOR_BOX = new ItemSemiConductorBox();
+    public static final Item MYSTERY_COMPONENT_BOX = new ItemMysteryComponentBox();
 
     @Mod.EventBusSubscriber(modid = EIC.MOD_ID, bus = Bus.MOD)
     public static class Register {
         @SubscribeEvent
         public static void registerItems(final RegistryEvent.Register<Item> event) {
             final Item[] item = {
+                    //Electrical Component
+                    STONE_STICK,
                     SEMI_CONDUCTOR,
-                    new ItemSilicon(),
-                    new ItemCopperIngot(),
-                    new ItemConductingWire(),
-                    new ItemStoneStick(),
-                    new ItemRasp(),
-                    new ItemStoneCuttingEdge(),
-                    new ItemTerahertzPickaxe(),
-                    new ItemElectricalComponentBox(),
-                    new ItemSlicedSiliconDisk(),
-                    new ItemSiliconWafer(),
+                    CONDUCTING_WIRE,
+                    STONE_CUTTING_EDGE,
+                    SLICED_STONE_DISK,
+                    SILICON_WAFER,
+                    //Ores
+                    SILICON,
+                    COPPER_INGOT,
+                    //Tools
+                    TERAHERTZ_PICKAXE,
+                    TERAHERTZ_SWORD,
+                    RASP,
+                    //Boxes
+                    ELECTRICAL_COMPONENT_BOX,
                     SEMI_CONDUCTOR_BOX,
                     MYSTERY_COMPONENT_BOX
             };
