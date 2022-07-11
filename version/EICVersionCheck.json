@@ -1,13 +1,14 @@
 {
   "homepage": "https://lattesyobon.github.io/eic",
   "1.15.2": {
+    "0.3.0": "Added terahertz-based tools and box items",
     "0.2.5": "Added Tools,boxes",
     "0.2.0": "Added items and recipes.",
     "0.1.0": "Mod is available."
   },
 
   "promos": {
-    "1.15.2-latest": "0.2.0",
-    "1.15.2-recommended": "0.1.0"
+    "1.15.2-latest": "0.3.0",
+    "1.15.2-recommended": "0.3.0"
   }
 }
