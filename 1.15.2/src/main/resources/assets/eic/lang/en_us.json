@@ -7,5 +7,8 @@
   "item.eic.silicon": "Silicon",
   "item.eic.rasp": "Rasp",
   "item.eic.conducting_wire": "Conducting Wire",
-  "item.eic.stone_stick": "Stone Stick"
+  "item.eic.stone_stick": "Stone Stick",
+  "item.eic.electrical_component_box": "Electrical Component Box",
+  "item.eic.semi_conductor_box": "Semiconductor Box",
+  "item.eic.mystery_component_box": "Mystery Component Box"
 }

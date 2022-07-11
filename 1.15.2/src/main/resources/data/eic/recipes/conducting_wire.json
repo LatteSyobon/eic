@@ -2,19 +2,19 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "iii",
-    "RRR",
+    "iRi",
     "iii"
   ],
   "key": {
     "i": {
-      "item": "eic:copper_ingot"
+      "item": "minecraft:cobblestone"
     },
     "R": {
-      "item": "minecraft:redstone"
+      "item": "eic:stone_cutting_edge"
     }
   },
   "result": {
-    "item": "eic:conducting_wire",
+    "item": "eic:stone_cutting_edge",
     "count": 1
   }
 }

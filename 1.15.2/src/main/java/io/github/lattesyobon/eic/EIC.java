@@ -19,6 +19,7 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import javax.swing.*;
 import java.util.stream.Collectors;
 
 // The value here should match an entry in the META-INF/mods.toml file
@@ -27,11 +28,14 @@ public class EIC
 {
     // Directly reference a log4j logger.
     public static final String MOD_ID = "eic";
-    private static final Logger LOGGER = LogManager.getLogger();
+    public static final Logger LOGGER = LogManager.getLogger();
 
     public static final ItemGroup EIC_TAB = new EICTab(MOD_ID);
 
     public EIC() {
+        setLAF();
+        LOGGER.info("LookAndFeel has been set up");
+        LOGGER.info("Now registering");
         // Register the setup method for modloading
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
         // Register the enqueueIMC method for modloading
@@ -43,6 +47,20 @@ public class EIC
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
+        LOGGER.info("Registration has been completed.");
+    }
+
+    private void setLAF() {
+        try {
+            System.out.println(UIManager.getSystemLookAndFeelClassName());
+            UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
+            //UIManager.setLookAndFeel("javax.swing.plaf.metal.MetalLookAndFeel");
+            //com.sun.java.swing.plaf.gtk.GTKLookAndFeel
+            //com.sun.java.swing.plaf.motif.MotifLookAndFeel
+            //com.sun.java.swing.plaf.windows.WindowsLookAndFeel
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
     private void setup(final FMLCommonSetupEvent event)
@@ -60,7 +78,7 @@ public class EIC
     private void enqueueIMC(final InterModEnqueueEvent event)
     {
         // some example code to dispatch IMC to another mod
-        InterModComms.sendTo("examplemod", "helloworld", () -> { LOGGER.info("Hello world from the MDK"); return "Hello world";});
+        InterModComms.sendTo("eic", "helloworld", () -> { LOGGER.info("Hello world from the MDK"); return "Hello world";});
     }
 
     private void processIMC(final InterModProcessEvent event)
