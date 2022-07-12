@@ -25,6 +25,8 @@
   "item.eic.semi_conductor_box.desc": "半導体を入手します",
   "item.eic.mystery_component_box": "謎の部品封入箱",
   "item.eic.mystery_component_box.desc": "謎の部品を入手します",
+  "item.eic.silicon_wafer_box": "シリコンウェハー封入箱",
+  "item.eic.silicon_wafer_box.desc": "シリコンウェハーを入手します",
 
   "block.eic.terahertz_ore": "テラヘルツ鉱石",
   "block.eic.copper_ore": "銅鉱石"

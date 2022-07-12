@@ -24,6 +24,8 @@
   "item.eic.semi_conductor_box.desc": "Get Semiconductors",
   "item.eic.mystery_component_box": "Mystery Component Box",
   "item.eic.mystery_component_box.desc": "Get the mystery component",
+  "item.eic.silicon_wafer_box": "Silicon Wafer Box",
+  "item.eic.silicon_wafer_box.desc": "Get Silicon Wafer",
 
   "block.eic.terahertz_ore": "Terahertz Ore",
   "block.eic.copper_ore": "Copper Ore"

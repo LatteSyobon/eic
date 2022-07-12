@@ -37,6 +37,7 @@ public class EICItems {
     public static final Item ELECTRICAL_COMPONENT_BOX = new ItemElectricalComponentBox();
     public static final Item SEMI_CONDUCTOR_BOX = new ItemSemiConductorBox();
     public static final Item MYSTERY_COMPONENT_BOX = new ItemMysteryComponentBox();
+    public static final Item SILICON_WAFER_BOX = new ItemSiliconWaferBox();
 
     @Mod.EventBusSubscriber(modid = EIC.MOD_ID, bus = Bus.MOD)
     public static class Register {
@@ -65,7 +66,8 @@ public class EICItems {
                     //Boxes
                     ELECTRICAL_COMPONENT_BOX,
                     SEMI_CONDUCTOR_BOX,
-                    MYSTERY_COMPONENT_BOX
+                    MYSTERY_COMPONENT_BOX,
+                    SILICON_WAFER_BOX
             };
 
             event.getRegistry().registerAll(item);
