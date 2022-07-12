@@ -7,13 +7,13 @@ import net.minecraftforge.common.ToolType;
 
 public class BlockTerahertzOre extends Block {
     public BlockTerahertzOre() {
-        super(Properties.create(Material.ROCK).hardnessAndResistance(30F,6.0F));
+        super(Properties.create(Material.ROCK).hardnessAndResistance(20F,6.0F));
         this.setRegistryName("terahertz_ore");
     }
 
     @Override
     public int getHarvestLevel(BlockState state) {
-        return 0;
+        return 2;
     }
     @Override
     public ToolType getHarvestTool(BlockState state) {

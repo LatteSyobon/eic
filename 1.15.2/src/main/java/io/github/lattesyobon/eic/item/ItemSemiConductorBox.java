@@ -11,7 +11,11 @@ import net.minecraft.util.ActionResult;
 import net.minecraft.util.Hand;
 import net.minecraft.util.text.ITextComponent;
 import net.minecraft.util.text.StringTextComponent;
+import net.minecraft.util.text.TextFormatting;
+import net.minecraft.util.text.TranslationTextComponent;
 import net.minecraft.world.World;
+import net.minecraftforge.api.distmarker.Dist;
+import net.minecraftforge.api.distmarker.OnlyIn;
 
 import javax.annotation.Nullable;
 import java.util.List;
@@ -25,10 +29,14 @@ public class ItemSemiConductorBox extends Item {
         this.setRegistryName("semi_conductor_box");
     }
 
-    @Override
+    @OnlyIn(Dist.CLIENT)
     public void addInformation(ItemStack stack, @Nullable World worldIn, List<ITextComponent> tooltip, ITooltipFlag flagIn) {
-        tooltip.add(new StringTextComponent("Get Semiconductors"));
-        super.addInformation(stack, worldIn, tooltip, flagIn);
+        tooltip.add(this.getRecordDescription().applyTextStyle(TextFormatting.GRAY));
+    }
+
+    @OnlyIn(Dist.CLIENT)
+    public ITextComponent getRecordDescription() {
+        return new TranslationTextComponent(this.getTranslationKey() + ".desc");
     }
 
     @Override

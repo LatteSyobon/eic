@@ -13,7 +13,7 @@ public class BlockCopperOre extends Block {
 
     @Override
     public int getHarvestLevel(BlockState state) {
-        return 0;
+        return 1;
     }
     @Override
     public ToolType getHarvestTool(BlockState state) {

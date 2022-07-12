@@ -8,11 +8,13 @@
   "item.eic.silicon_wafer": "シリコンウェハー",
 
   "item.eic.silicon": "シリコン",
+  "item.eic.silicon.desc": "半導体などの原材料になります",
   "item.eic.copper_ingot":  "銅のインゴット",
   "item.eic.rasp": "やすり",
 
   "item.eic.electrical_component_box": "電気部品封入箱",
   "item.eic.semi_conductor_box": "半導体封入箱",
+  "item.eic.semi_conductor_box.desc": "半導体を入手します",
   "item.eic.mystery_component_box": "謎の部品封入箱",
 
   "block.eic.terahertz_ore": "テラヘルツ鉱石",

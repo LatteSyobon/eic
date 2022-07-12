@@ -7,11 +7,13 @@
   "item.eic.silicon_wafer": "Silicon Wafer",
 
   "item.eic.silicon": "Silicon",
+  "item.eic.silicon.desc": "Raw materials for semiconductors, etc.",
   "item.eic.copper_ingot":  "Copper Ingot",
   "item.eic.rasp": "Rasp",
 
   "item.eic.electrical_component_box": "Electrical Component Box",
   "item.eic.semi_conductor_box": "Semiconductor Box",
+  "item.eic.semi_conductor_box.desc": "Get Semiconductors",
   "item.eic.mystery_component_box": "Mystery Component Box",
 
   "block.eic.terahertz_ore": "Terahertz Ore",
