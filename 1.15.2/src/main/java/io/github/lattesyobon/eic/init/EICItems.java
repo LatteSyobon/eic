@@ -30,6 +30,8 @@ public class EICItems {
     public static final Item TERAHERTZ_SHOVEL = new ItemTerahertzShovel();
     public static final Item TERAHERTZ_AXE = new ItemTerahertzAxe();
     public static final Item TERAHERTZ_HOE = new ItemTerahertzHoe();
+
+    public static final Item COPPER_PICKAXE = new ItemCopperPickaxe();
     public static final Item RASP = new ItemRasp();
     // Boxes
     public static final Item ELECTRICAL_COMPONENT_BOX = new ItemElectricalComponentBox();
@@ -57,6 +59,8 @@ public class EICItems {
                     TERAHERTZ_SHOVEL,
                     TERAHERTZ_AXE,
                     TERAHERTZ_HOE,
+
+                    COPPER_PICKAXE,
                     RASP,
                     //Boxes
                     ELECTRICAL_COMPONENT_BOX,

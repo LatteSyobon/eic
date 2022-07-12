@@ -9,12 +9,21 @@
   "item.eic.silicon": "Silicon",
   "item.eic.silicon.desc": "Raw materials for semiconductors, etc.",
   "item.eic.copper_ingot":  "Copper Ingot",
+
+  "item.eic.terahertz_pickaxe": "Terahertz Pickaxe",
+  "item.eic.terahertz_sword": "Terahertz Sword",
+  "item.eic.terahertz_shovel": "Terahertz Shovel",
+  "item.eic.terahertz_axe": "Terahertz Axe",
+  "item.eic.terahertz_hoe": "Terahertz Hoe",
+
+  "item.eic.copper_pickaxe": "銅のツルハシ",
   "item.eic.rasp": "Rasp",
 
   "item.eic.electrical_component_box": "Electrical Component Box",
   "item.eic.semi_conductor_box": "Semiconductor Box",
   "item.eic.semi_conductor_box.desc": "Get Semiconductors",
   "item.eic.mystery_component_box": "Mystery Component Box",
+  "item.eic.mystery_component_box.desc": "Get the mystery component",
 
   "block.eic.terahertz_ore": "Terahertz Ore",
   "block.eic.copper_ore": "Copper Ore"

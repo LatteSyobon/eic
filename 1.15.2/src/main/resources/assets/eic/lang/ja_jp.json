@@ -10,12 +10,21 @@
   "item.eic.silicon": "シリコン",
   "item.eic.silicon.desc": "半導体などの原材料になります",
   "item.eic.copper_ingot":  "銅のインゴット",
+
+  "item.eic.terahertz_pickaxe": "テラヘルツのツルハシ",
+  "item.eic.terahertz_sword": "テラヘルツの剣",
+  "item.eic.terahertz_shovel": "テラヘルツのシャベル",
+  "item.eic.terahertz_axe": "テラヘルツの斧",
+  "item.eic.terahertz_hoe": "テラヘルツのくわ",
+
+  "item.eic.copper_pickaxe": "銅のツルハシ",
   "item.eic.rasp": "やすり",
 
   "item.eic.electrical_component_box": "電気部品封入箱",
   "item.eic.semi_conductor_box": "半導体封入箱",
   "item.eic.semi_conductor_box.desc": "半導体を入手します",
   "item.eic.mystery_component_box": "謎の部品封入箱",
+  "item.eic.mystery_component_box.desc": "謎の部品を入手します",
 
   "block.eic.terahertz_ore": "テラヘルツ鉱石",
   "block.eic.copper_ore": "銅鉱石"
