@@ -1,12 +1,9 @@
-package io.github.lattesyobon.eic;
+package io.github.lattesyobon.eic_buildings;
 
-import io.github.lattesyobon.eic.init.EICTab;
-import io.github.lattesyobon.eic.modelloader.EICLoaderException;
-import io.github.lattesyobon.eic.modelloader.ModelDataManager;
+import io.github.lattesyobon.eic_buildings.init.EICBuildingsTab;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.item.ItemGroup;
-import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -25,18 +22,16 @@ import javax.swing.*;
 import java.util.stream.Collectors;
 
 // The value here should match an entry in the META-INF/mods.toml file
-@Mod(EIC.MOD_ID)
-public class EIC
+@Mod(EICBuildings.MOD_ID)
+public class EICBuildings
 {
     // Directly reference a log4j logger.
-    public static final String MOD_ID = "eic";
+    public static final String MOD_ID = "eic_buildings";
     public static final Logger LOGGER = LogManager.getLogger();
 
-    public static final ItemGroup EIC_TAB = new EICTab(MOD_ID);
+    public static final ItemGroup EIC_BUILDINGS_TAB = new EICBuildingsTab(MOD_ID);
 
-    public EIC() {
-        setLAF();
-        LOGGER.info("LookAndFeel has been set up");
+    public EICBuildings() {
         LOGGER.info("Now registering");
         // Register the setup method for modloading
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
@@ -52,27 +47,8 @@ public class EIC
         LOGGER.info("Registration has been completed.");
     }
 
-    private void setLAF() {
-        try {
-            System.out.println(UIManager.getSystemLookAndFeelClassName());
-            UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
-            //UIManager.setLookAndFeel("javax.swing.plaf.metal.MetalLookAndFeel");
-            //com.sun.java.swing.plaf.gtk.GTKLookAndFeel
-            //com.sun.java.swing.plaf.motif.MotifLookAndFeel
-            //com.sun.java.swing.plaf.windows.WindowsLookAndFeel
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-
     private void setup(final FMLCommonSetupEvent event)
     {
-        LOGGER.info("Initializing Running directory");
-        try {
-            ModelDataManager.init();
-        }catch(EICLoaderException e) {
-            e.printStackTrace();
-        }
         // some preinit code
         LOGGER.info("HELLO FROM PREINIT");
         LOGGER.info("DIRT BLOCK >> {}", Blocks.DIRT.getRegistryName());
@@ -114,3 +90,4 @@ public class EIC
         }
     }
 }
+

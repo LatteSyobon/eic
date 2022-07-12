@@ -1,0 +1,11 @@
+{
+  "homepage": "https://lattesyobon.github.io/eic",
+  "1.15.2": {
+    "0.3.5": "Added terahertz-based tools and box items"
+  },
+
+  "promos": {
+    "1.15.2-latest": "0.3.5",
+    "1.15.2-recommended": "0.3.5"
+  }
+}
