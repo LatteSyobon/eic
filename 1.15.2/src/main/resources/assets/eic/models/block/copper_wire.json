@@ -1,9 +1,8 @@
 {
 	"parent": "block/cube",
-	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "eic:block/copper_ore",
-		"particle": "eic:block/copper_ore"
+		"0": "eic:block/copper_wire",
+		"particle": "eic:block/copper_wire"
 	},
 	"elements": [
 		{

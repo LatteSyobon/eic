@@ -1,0 +1,36 @@
+{
+  "parent": "eic:eic_industrial/root",
+  "display": {
+    "icon": {
+      "item": "eic:silicon_wafer"
+    },
+    "title": {
+      "translate": "advancements.eic.silicon_wafer.title"
+    },
+    "description": {
+      "translate": "advancements.eic.silicon_wafer.description"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+  },
+  "criteria": {
+    "crafting_table": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "eic:silicon_wafer"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "root"
+    ]
+  ]
+}

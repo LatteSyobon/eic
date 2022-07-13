@@ -1,5 +1,9 @@
 {
   "itemGroup.eic": "EIC",
+
+  "advancements.eic.root.title": "Electric Industry Craft",
+  "advancements.eic.root.description": "Obtain a conducting wire",
+
   "item.eic.semi_conductor": "Semi Conductor",
   "item.eic.stone_stick": "Stone Stick",
   "item.eic.conducting_wire": "Conducting Wire",

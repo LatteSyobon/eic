@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "item": "eic:silicon"
+    },
+    "title": {
+      "translate": "advancements.eic.silicon.title"
+    },
+    "description": {
+      "translate": "advancements.eic.silicon.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false,
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+  },
+  "criteria": {
+    "crafting_table": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "eic:silicon_ore"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "crafting_table"
+    ]
+  ]
+}

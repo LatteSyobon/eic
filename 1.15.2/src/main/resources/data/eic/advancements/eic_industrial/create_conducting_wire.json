@@ -1,0 +1,36 @@
+{
+  "parent": "eic:eic_industrial/copper_ore",
+  "display": {
+    "icon": {
+      "item": "eic:copper_ore"
+    },
+    "title": {
+      "translate": "advancements.eic.conducting_wire.title"
+    },
+    "description": {
+      "translate": "advancements.eic.conducting_wire.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false,
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+  },
+  "criteria": {
+    "conducting_wire": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "eic:conducting_wire"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "conducting_wire"
+    ]
+  ]
+}

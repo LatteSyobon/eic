@@ -1,0 +1,36 @@
+{
+  "parent": "eic:eic_industrial/root",
+  "display": {
+    "icon": {
+      "item": "eic:copper_ore"
+    },
+    "title": {
+      "translate": "advancements.eic.copper_ore.title"
+    },
+    "description": {
+      "translate": "advancements.eic.copper_ore.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false,
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+  },
+  "criteria": {
+    "copper_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "eic:copper_ingot"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "copper_ingot"
+    ]
+  ]
+}

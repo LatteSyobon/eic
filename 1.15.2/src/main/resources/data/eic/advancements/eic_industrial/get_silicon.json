@@ -1,0 +1,36 @@
+{
+  "parent": "eic:eic_industrial/copper_ore",
+  "display": {
+    "icon": {
+      "item": "eic:silicon"
+    },
+    "title": {
+      "translate": "advancements.eic.get_silicon.title"
+    },
+    "description": {
+      "translate": "advancements.eic.get_silicon.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false,
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+  },
+  "criteria": {
+    "get_silicon": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "eic:silicon"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_silicon"
+    ]
+  ]
+}
