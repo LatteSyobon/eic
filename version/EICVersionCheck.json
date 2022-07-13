@@ -1,6 +1,7 @@
 {
   "homepage": "https://lattesyobon.github.io/eic",
   "1.15.2": {
+    "0.4.5": "Added Achievements",
     "0.4.0": "ore to be generated.\nAlso added terahertz items and silicon wafer boxes.",
     "0.3.0": "Added terahertz-based tools and box items",
     "0.2.5": "Added Tools,boxes",
