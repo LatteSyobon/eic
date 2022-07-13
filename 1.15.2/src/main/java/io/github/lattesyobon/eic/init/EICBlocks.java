@@ -4,6 +4,7 @@ import com.google.common.base.Preconditions;
 
 import io.github.lattesyobon.eic.EIC;
 import io.github.lattesyobon.eic.block.*;
+import io.github.lattesyobon.eic.block.mechanism.*;
 import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -21,6 +22,11 @@ public class EICBlocks {
     public static final BlockTerahertzOre TERAHERTZ_ORE = Null();
     public static final BlockCopperOre COPPER_ORE = Null();
 
+    public static final BlockCentrifuge CENTRIFUGE = Null();
+    public static final BlockXRay X_RAY = Null();
+
+    public static final BlockCopperWire COPPER_WIRE = Null();
+
     @Mod.EventBusSubscriber(modid = EIC.MOD_ID, bus = Bus.MOD)
     public static class Register {
 
@@ -28,7 +34,10 @@ public class EICBlocks {
         public static void registerBlock(final RegistryEvent.Register<Block> event) {
             final Block[] blocks = {
                     new BlockTerahertzOre(),
-                    new BlockCopperOre()
+                    new BlockCopperOre(),
+                    new BlockCentrifuge(),
+                    new BlockCopperWire(),
+                    new BlockXRay()
             };
 
             event.getRegistry().registerAll(blocks);
@@ -38,7 +47,10 @@ public class EICBlocks {
         public static void registerBlockItems(final RegistryEvent.Register<Item> event) {
             final BlockItem[] items = {
                     new BlockItem(TERAHERTZ_ORE,new Properties().group(EIC.EIC_TAB)),
-                    new BlockItem(COPPER_ORE,new Properties().group(EIC.EIC_TAB))
+                    new BlockItem(COPPER_ORE,new Properties().group(EIC.EIC_TAB)),
+                    new BlockItem(CENTRIFUGE,new Properties().group(EIC.EIC_TAB)),
+                    new BlockItem(COPPER_WIRE,new Properties().group(EIC.EIC_TAB)),
+                    new BlockItem(X_RAY,new Properties().group(EIC.EIC_TAB))
             };
 
             for(final BlockItem item : items) {

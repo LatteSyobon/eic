@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "eic:block/centrifuge" }
+  }
+}

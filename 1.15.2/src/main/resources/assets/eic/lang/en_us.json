@@ -28,5 +28,7 @@
   "item.eic.silicon_wafer_box.desc": "Get Silicon Wafer",
 
   "block.eic.terahertz_ore": "Terahertz Ore",
-  "block.eic.copper_ore": "Copper Ore"
+  "block.eic.copper_ore": "Copper Ore",
+
+  "block.eic.centrifuge": "Centrifuge"
 }

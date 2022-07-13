@@ -29,5 +29,7 @@
   "item.eic.silicon_wafer_box.desc": "シリコンウェハーを入手します",
 
   "block.eic.terahertz_ore": "テラヘルツ鉱石",
-  "block.eic.copper_ore": "銅鉱石"
+  "block.eic.copper_ore": "銅鉱石",
+
+  "block.eic.centrifuge": "遠心分離機"
 }
