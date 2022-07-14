@@ -30,7 +30,7 @@
   },
   "requirements": [
     [
-      "get_silicon"
+      "get_copper_tool"
     ]
   ]
 }
