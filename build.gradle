@@ -7,6 +7,7 @@ buildscript {
         classpath group: 'net.minecraftforge.gradle', name: 'ForgeGradle', version: '3.+', changing: true
     }
 }
+
 allprojects {
     apply plugin: 'net.minecraftforge.gradle'
 // Only edit below this line, the above code adds and enables the necessary things for Forge to be setup.
@@ -21,7 +22,7 @@ allprojects {
     // Need this here so eclipse task generates correctly.
 //Print out JVM information so that we know what version is running. Extreamly useful for people to know when helping you.
     println('Java: ' + System.getProperty('java.version') + ' JVM: ' + System.getProperty('java.vm.version') + '(' + System.getProperty('java.vendor') + ') Arch: ' + System.getProperty('os.arch'))
-}
+
 minecraft {
     // The mappings can be changed at any time, and must be in the following format.
     // snapshot_YYYYMMDD   Snapshot are built nightly.
@@ -87,7 +88,7 @@ minecraft {
         }
     }
 }
-
+}
 dependencies {
     // Specify the version of Minecraft to use, If this is any group other then 'net.minecraft' it is assumed
     // that the dep is a ForgeGradle 'patcher' dependency. And it's patches will be applied.
