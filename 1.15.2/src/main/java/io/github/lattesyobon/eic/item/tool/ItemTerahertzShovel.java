@@ -5,7 +5,7 @@ import net.minecraft.item.ShovelItem;
 
 public class ItemTerahertzShovel extends ShovelItem {
     public ItemTerahertzShovel() {
-        super(new ItemTierTerahertz(),7,-3.2F,new Properties().group(EIC.EIC_TAB));
+        super(new ItemTierTerahertz(),7,-3.2F,new Properties().group(EIC.EIC_TOOL_TAB));
         this.setRegistryName("terahertz_shovel");
     }
 }

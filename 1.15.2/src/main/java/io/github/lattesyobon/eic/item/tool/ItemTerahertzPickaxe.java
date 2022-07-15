@@ -6,7 +6,7 @@ import net.minecraft.item.PickaxeItem;
 
 public class ItemTerahertzPickaxe extends PickaxeItem {
     public ItemTerahertzPickaxe() {
-        super(new ItemTierTerahertz(),7,-3.2F,new Properties().group(EIC.EIC_TAB));
+        super(new ItemTierTerahertz(),7,-3.2F,new Properties().group(EIC.EIC_TOOL_TAB));
         this.setRegistryName("terahertz_pickaxe");
     }
 }

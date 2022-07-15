@@ -1,6 +1,6 @@
 package io.github.lattesyobon.eic;
 
-import io.github.lattesyobon.eic.init.EICTab;
+import io.github.lattesyobon.eic.init.*;
 import io.github.lattesyobon.eic.modelloader.EICLoaderException;
 import io.github.lattesyobon.eic.modelloader.ModelDataManager;
 import net.minecraft.block.Block;
@@ -33,6 +33,8 @@ public class EIC
     public static final Logger LOGGER = LogManager.getLogger();
 
     public static final ItemGroup EIC_TAB = new EICTab(MOD_ID);
+    public static final ItemGroup EIC_TOOL_TAB = new EICToolsTab(MOD_ID);
+    public static final ItemGroup EIC_MECHANISM_TAB = new EICMechanismTab(MOD_ID);
 
     public EIC() {
         setLAF();

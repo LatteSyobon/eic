@@ -6,7 +6,7 @@ import net.minecraft.item.IItemTier;
 
 public class ItemCopperHoe extends HoeItem {
     public ItemCopperHoe() {
-        super(new ItemTierTerahertz(),-3.2F,new Properties().group(EIC.EIC_TAB));
+        super(new ItemTierTerahertz(),-3.2F,new Properties().group(EIC.EIC_TOOL_TAB));
         this.setRegistryName("copper_hoe");
     }
 }

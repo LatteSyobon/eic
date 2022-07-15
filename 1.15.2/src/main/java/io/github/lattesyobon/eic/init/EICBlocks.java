@@ -51,9 +51,9 @@ public class EICBlocks {
                     new BlockItem(TERAHERTZ_ORE,new Properties().group(EIC.EIC_TAB)),
                     new BlockItem(COPPER_ORE,new Properties().group(EIC.EIC_TAB)),
                     new BlockItem(RUBY_ORE,new Properties().group(EIC.EIC_TAB)),
-                    new BlockItem(CENTRIFUGE,new Properties().group(EIC.EIC_TAB)),
-                    new BlockItem(COPPER_WIRE,new Properties().group(EIC.EIC_TAB)),
-                    new BlockItem(X_RAY,new Properties().group(EIC.EIC_TAB))
+                    new BlockItem(CENTRIFUGE,new Properties().group(EIC.EIC_MECHANISM_TAB)),
+                    new BlockItem(COPPER_WIRE,new Properties().group(EIC.EIC_MECHANISM_TAB)),
+                    new BlockItem(X_RAY,new Properties().group(EIC.EIC_MECHANISM_TAB))
             };
 
             for(final BlockItem item : items) {

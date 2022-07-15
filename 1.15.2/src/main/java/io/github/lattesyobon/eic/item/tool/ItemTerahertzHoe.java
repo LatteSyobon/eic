@@ -6,7 +6,7 @@ import net.minecraft.item.IItemTier;
 
 public class ItemTerahertzHoe extends HoeItem {
     public ItemTerahertzHoe() {
-        super(new ItemTierTerahertz(),7,new Properties().group(EIC.EIC_TAB));
+        super(new ItemTierTerahertz(),7,new Properties().group(EIC.EIC_TOOL_TAB));
         this.setRegistryName("terahertz_hoe");
     }
 }

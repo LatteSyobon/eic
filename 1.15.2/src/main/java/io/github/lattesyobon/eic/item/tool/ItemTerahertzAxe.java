@@ -6,7 +6,7 @@ import net.minecraft.item.IItemTier;
 
 public class ItemTerahertzAxe extends AxeItem {
     public ItemTerahertzAxe() {
-        super(new ItemTierTerahertz(),7,-3.2F,new Properties().group(EIC.EIC_TAB));
+        super(new ItemTierTerahertz(),7,-3.2F,new Properties().group(EIC.EIC_TOOL_TAB));
         this.setRegistryName("terahertz_axe");
     }
 }

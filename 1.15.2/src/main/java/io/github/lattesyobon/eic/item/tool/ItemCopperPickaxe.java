@@ -6,7 +6,7 @@ import net.minecraft.item.PickaxeItem;
 
 public class ItemCopperPickaxe extends PickaxeItem {
     public ItemCopperPickaxe() {
-        super(new ItemTierCopper(),7,-3.2F,new Properties().group(EIC.EIC_TAB));
+        super(new ItemTierCopper(),7,-3.2F,new Properties().group(EIC.EIC_TOOL_TAB));
         this.setRegistryName("copper_pickaxe");
     }
 }
