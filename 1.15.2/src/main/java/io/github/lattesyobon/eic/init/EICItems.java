@@ -24,6 +24,7 @@ public class EICItems {
     //Ores
     public static final Item SILICON = new ItemSilicon();
     public static final Item COPPER_INGOT = new ItemCopperIngot();
+    public static final Item RUBY = new ItemRuby();
     //Tools
     public static final Item TERAHERTZ_PICKAXE = new ItemTerahertzPickaxe();
     public static final Item TERAHERTZ_SWORD = new ItemTerahertzSword();
@@ -58,6 +59,7 @@ public class EICItems {
                     //Ores
                     SILICON,
                     COPPER_INGOT,
+                    RUBY,
                     //Tools
                     TERAHERTZ_PICKAXE,
                     TERAHERTZ_SWORD,

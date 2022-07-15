@@ -21,6 +21,7 @@ public class EICBlocks {
 
     public static final BlockTerahertzOre TERAHERTZ_ORE = Null();
     public static final BlockCopperOre COPPER_ORE = Null();
+    public static final BlockRubyOre RUBY_ORE = Null();
 
     public static final BlockCentrifuge CENTRIFUGE = Null();
     public static final BlockXRay X_RAY = Null();
@@ -35,6 +36,7 @@ public class EICBlocks {
             final Block[] blocks = {
                     new BlockTerahertzOre(),
                     new BlockCopperOre(),
+                    new BlockRubyOre(),
                     new BlockCentrifuge(),
                     new BlockCopperWire(),
                     new BlockXRay()
@@ -48,6 +50,7 @@ public class EICBlocks {
             final BlockItem[] items = {
                     new BlockItem(TERAHERTZ_ORE,new Properties().group(EIC.EIC_TAB)),
                     new BlockItem(COPPER_ORE,new Properties().group(EIC.EIC_TAB)),
+                    new BlockItem(RUBY_ORE,new Properties().group(EIC.EIC_TAB)),
                     new BlockItem(CENTRIFUGE,new Properties().group(EIC.EIC_TAB)),
                     new BlockItem(COPPER_WIRE,new Properties().group(EIC.EIC_TAB)),
                     new BlockItem(X_RAY,new Properties().group(EIC.EIC_TAB))

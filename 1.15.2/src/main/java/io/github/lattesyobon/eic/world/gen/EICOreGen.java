@@ -33,6 +33,11 @@ public class EICOreGen {
                 biome.addFeature(GenerationStage.Decoration.UNDERGROUND_ORES, Feature.ORE
                         .withConfiguration(new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NATURAL_STONE, EICBlocks.COPPER_ORE.getDefaultState(), 9))
                         .withPlacement(customConfig_copper));
+                ConfiguredPlacement<CountRangeConfig> customConfig_ruby = Placement.COUNT_RANGE
+                        .configure(new CountRangeConfig(4,0,0,8));
+                biome.addFeature(GenerationStage.Decoration.UNDERGROUND_ORES, Feature.ORE
+                        .withConfiguration(new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NATURAL_STONE, EICBlocks.RUBY_ORE.getDefaultState(), 9))
+                        .withPlacement(customConfig_ruby));
             }
         }
     }
