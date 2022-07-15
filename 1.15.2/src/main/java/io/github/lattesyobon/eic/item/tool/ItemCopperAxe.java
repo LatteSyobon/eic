@@ -1,10 +1,12 @@
 package io.github.lattesyobon.eic.item.tool;
 
+import io.github.lattesyobon.eic.EIC;
 import net.minecraft.item.AxeItem;
 import net.minecraft.item.IItemTier;
 
 public class ItemCopperAxe extends AxeItem {
-    public ItemCopperAxe(IItemTier p_i48530_1_, float p_i48530_2_, float p_i48530_3_, Properties p_i48530_4_) {
-        super(p_i48530_1_, p_i48530_2_, p_i48530_3_, p_i48530_4_);
+    public ItemCopperAxe() {
+        super(new ItemTierTerahertz(),7,-3.2F,new Properties().group(EIC.EIC_TAB));
+        this.setRegistryName("copper_axe");
     }
 }
