@@ -8,7 +8,7 @@ public class ItemSilicon extends Item {
     public ItemSilicon() {
         super();
         this.setRegistryName(EIC.MODID, "silicon");
-        this.setCreativeTab(CreativeTabs.MATERIALS);
+        this.setCreativeTab(EIC.EIC_TAB);
         this.setUnlocalizedName("silicon");
     }
 }

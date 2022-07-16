@@ -10,8 +10,15 @@
     "0.1.0": "Mod is available."
   },
 
+  "1.12.2": {
+    "0.2.0": "Added items and recipes. (No change from the 1.15.2 version) After that, it's the same."
+  },
+
   "promos": {
-    "1.15.2-latest": "0.4.0",
-    "1.15.2-recommended": "0.3.0"
+    "1.15.2-latest": "0.6.0",
+    "1.15.2-recommended": "0.6.0",
+
+    "1.12.2-latest": "0.2.0",
+    "1.12.2-recommended": "0.2.0"
   }
 }

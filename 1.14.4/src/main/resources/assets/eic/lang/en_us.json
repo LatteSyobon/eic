@@ -1,0 +1,53 @@
+{
+  "itemGroup.eic": "EIC",
+
+  "advancements.eic.root.title": "Electric Industry Craft",
+  "advancements.eic.root.description": "Obtain a conducting wire",
+
+  "item.eic.semi_conductor": "Semi Conductor",
+  "item.eic.stone_stick": "Stone Stick",
+  "item.eic.conducting_wire": "Conducting Wire",
+  "item.eic.stone_cutting_edge": "Stone Cutting Edge",
+  "item.eic.silicon_wafer": "Silicon Wafer",
+
+  "item.eic.silicon": "Silicon",
+  "item.eic.silicon.desc": "Raw materials for semiconductors, etc.",
+  "item.eic.copper_ingot":  "Copper Ingot",
+  "item.eic.ruby": "Ruby",
+
+  "item.eic.terahertz_pickaxe": "Terahertz Pickaxe",
+  "item.eic.terahertz_sword": "Terahertz Sword",
+  "item.eic.terahertz_shovel": "Terahertz Shovel",
+  "item.eic.terahertz_axe": "Terahertz Axe",
+  "item.eic.terahertz_hoe": "Terahertz Hoe",
+
+  "item.eic.copper_pickaxe": "Copper Pickaxe",
+  "item.eic.copper_sword": "Copper Sword",
+  "item.eic.copper_shovel": "Copper Shovel",
+  "item.eic.copper_axe": "Copper Axe",
+  "item.eic.copper_hoe": "Copper Hoe",
+
+  "item.eic.ruby_pickaxe": "Ruby Pickaxe",
+  "item.eic.ruby_sword": "Ruby Sword",
+  "item.eic.ruby_shovel": "Ruby Shovel",
+  "item.eic.ruby_axe": "Ruby Axe",
+  "item.eic.ruby_hoe": "Ruby Hoe",
+
+  "item.eic.rasp": "Rasp",
+
+  "item.eic.electrical_component_box": "Electrical Component Box",
+  "item.eic.semi_conductor_box": "Semiconductor Box",
+  "item.eic.semi_conductor_box.desc": "Get Semiconductors",
+  "item.eic.mystery_component_box": "Mystery Component Box",
+  "item.eic.mystery_component_box.desc": "Get the mystery component",
+  "item.eic.silicon_wafer_box": "Silicon Wafer Box",
+  "item.eic.silicon_wafer_box.desc": "Get Silicon Wafer",
+
+  "block.eic.terahertz_ore": "Terahertz Ore",
+  "block.eic.copper_ore": "Copper Ore",
+  "block.eic.ruby_ore": "Ruby Ore",
+
+  "block.eic.centrifuge": "Centrifuge",
+  "block.eic.copper_wire": "Copper Wire",
+  "block.eic.x_ray": "X Ray"
+}

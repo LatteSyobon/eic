@@ -9,6 +9,7 @@ public class ModInfo {
         meta.description ="";
         meta.version =EIC.VERSION ;
         meta.url = "https://github.com/LatteSyobon/eic";
+        meta.updateJSON = "https://raw.githubusercontent.com/LatteSyobon/eic/main/version/EICVersionCheck.json";
         meta.authorList.add("Lattex");
         meta.credits = "";
         meta.logoFile ="assets/eic/";
