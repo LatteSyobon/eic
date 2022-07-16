@@ -19,6 +19,7 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+import net.minecraftforge.registries.IForgeRegistry;
 import org.apache.logging.log4j.Logger;
 
 import static io.github.lattesyobon.eic.init.EICItems.*;
@@ -59,16 +60,31 @@ public class EIC
 
     @SubscribeEvent
     public void registerItems(RegistryEvent.Register<Item> event) {
-        event.getRegistry().register(SILICON);
-        event.getRegistry().register(STONE_STICK);
-        event.getRegistry().register(RASP);
+        final Item[] item = {
+                STONE_STICK,
+                SEMI_CONDUCTOR,
+                CONDUCTING_WIRE,
+                STONE_CUTTING_EDGE,
+
+                SILICON,
+                COPPER_INGOT,
+
+                RASP
+        };
+        event.getRegistry().registerAll(item);
     }
 
     @SubscribeEvent
     @SideOnly(Side.CLIENT)
     public void registerModels(ModelRegistryEvent event) {
-        ModelLoader.setCustomModelResourceLocation(SILICON, 0, new ModelResourceLocation(new ResourceLocation(EIC.MODID, "silicon"), "inventory"));
         ModelLoader.setCustomModelResourceLocation(STONE_STICK, 0, new ModelResourceLocation(new ResourceLocation(EIC.MODID, "stone_stick"), "inventory"));
+        ModelLoader.setCustomModelResourceLocation(SEMI_CONDUCTOR, 0, new ModelResourceLocation(new ResourceLocation(EIC.MODID, "semi_conductor"), "inventory"));
+        ModelLoader.setCustomModelResourceLocation(CONDUCTING_WIRE, 0, new ModelResourceLocation(new ResourceLocation(EIC.MODID, "conducting_wire"), "inventory"));
+        ModelLoader.setCustomModelResourceLocation(STONE_CUTTING_EDGE, 0, new ModelResourceLocation(new ResourceLocation(EIC.MODID, "stone_cutting_edge"), "inventory"));
+
+        ModelLoader.setCustomModelResourceLocation(SILICON, 0, new ModelResourceLocation(new ResourceLocation(EIC.MODID, "silicon"), "inventory"));
+        ModelLoader.setCustomModelResourceLocation(COPPER_INGOT, 0, new ModelResourceLocation(new ResourceLocation(EIC.MODID, "copper_ingot"), "inventory"));
+
         ModelLoader.setCustomModelResourceLocation(RASP,0,new ModelResourceLocation(new ResourceLocation(EIC.MODID,"rasp"),"inventory"));
     }
 }
