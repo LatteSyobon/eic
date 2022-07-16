@@ -1,6 +1,7 @@
 package io.github.lattesyobon.eic;
 
 import io.github.lattesyobon.eic.init.EICTab;
+import net.minecraft.block.Block;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Blocks;
@@ -22,6 +23,7 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 import net.minecraftforge.registries.IForgeRegistry;
 import org.apache.logging.log4j.Logger;
 
+import static io.github.lattesyobon.eic.init.EICBlocks.*;
 import static io.github.lattesyobon.eic.init.EICItems.*;
 
 @Mod(modid = io.github.lattesyobon.eic.EIC.MODID, name = io.github.lattesyobon.eic.EIC.NAME, version = io.github.lattesyobon.eic.EIC.VERSION)
@@ -75,8 +77,18 @@ public class EIC
     }
 
     @SubscribeEvent
+    public void registerBlocks(RegistryEvent.Register<Block> event) {
+        final Block[] block = {
+                COPPER_ORE,
+                TERAHERTZ_ORE
+        };
+        event.getRegistry().registerAll(block);
+    }
+
+    @SubscribeEvent
     @SideOnly(Side.CLIENT)
     public void registerModels(ModelRegistryEvent event) {
+        //Items
         ModelLoader.setCustomModelResourceLocation(STONE_STICK, 0, new ModelResourceLocation(new ResourceLocation(EIC.MODID, "stone_stick"), "inventory"));
         ModelLoader.setCustomModelResourceLocation(SEMI_CONDUCTOR, 0, new ModelResourceLocation(new ResourceLocation(EIC.MODID, "semi_conductor"), "inventory"));
         ModelLoader.setCustomModelResourceLocation(CONDUCTING_WIRE, 0, new ModelResourceLocation(new ResourceLocation(EIC.MODID, "conducting_wire"), "inventory"));
@@ -86,5 +98,8 @@ public class EIC
         ModelLoader.setCustomModelResourceLocation(COPPER_INGOT, 0, new ModelResourceLocation(new ResourceLocation(EIC.MODID, "copper_ingot"), "inventory"));
 
         ModelLoader.setCustomModelResourceLocation(RASP,0,new ModelResourceLocation(new ResourceLocation(EIC.MODID,"rasp"),"inventory"));
+        //Blocks
+        ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(COPPER_ORE), 0, new ModelResourceLocation(new ResourceLocation(EIC.MODID, "copper_ore"), "inventory"));
+        ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(TERAHERTZ_ORE), 0, new ModelResourceLocation(new ResourceLocation(EIC.MODID, "terahertz_ore"), "inventory"));
     }
 }
