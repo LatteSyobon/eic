@@ -26,6 +26,7 @@
   "item.eic.silicon": "シリコン",
   "item.eic.silicon.desc": "半導体などの原材料になります",
   "item.eic.copper_ingot":  "銅のインゴット",
+  "item.eic.ruby": "ルビー",
 
   "item.eic.terahertz_pickaxe": "テラヘルツのツルハシ",
   "item.eic.terahertz_sword": "テラヘルツの剣",
@@ -34,6 +35,17 @@
   "item.eic.terahertz_hoe": "テラヘルツのくわ",
 
   "item.eic.copper_pickaxe": "銅のツルハシ",
+  "item.eic.copper_sword": "銅の剣",
+  "item.eic.copper_shovel": "銅のシャベル",
+  "item.eic.copper_axe": "銅の斧",
+  "item.eic.copper_hoe": "銅のくわ",
+
+  "item.eic.ruby_pickaxe": "ルビーのツルハシ",
+  "item.eic.ruby_sword": "ルビーの剣",
+  "item.eic.ruby_shovel": "ルビーのシャベル",
+  "item.eic.ruby_axe": "ルビーの斧",
+  "item.eic.ruby_hoe": "ルビーのくわ",
+
   "item.eic.rasp": "やすり",
 
   "item.eic.electrical_component_box": "電気部品封入箱",
@@ -46,6 +58,7 @@
 
   "block.eic.terahertz_ore": "テラヘルツ鉱石",
   "block.eic.copper_ore": "銅鉱石",
+  "block.eic.ruby_ore": "ルビー鉱石",
 
   "block.eic.centrifuge": "遠心分離機"
 }

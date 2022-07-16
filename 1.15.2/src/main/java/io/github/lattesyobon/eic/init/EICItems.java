@@ -37,6 +37,13 @@ public class EICItems {
     public static final Item COPPER_SHOVEL = new ItemCopperShovel();
     public static final Item COPPER_AXE = new ItemCopperAxe();
     public static final Item COPPER_HOE = new ItemCopperHoe();
+
+    public static final Item RUBY_PICKAXE = new ItemRubyPickaxe();
+    public static final Item RUBY_SWORD = new ItemRubySword();
+    public static final Item RUBY_SHOVEL = new ItemRubyShovel();
+    public static final Item RUBY_AXE = new ItemRubyAxe();
+    public static final Item RUBY_HOE = new ItemRubyHoe();
+
     public static final Item RASP = new ItemRasp();
     // Boxes
     public static final Item ELECTRICAL_COMPONENT_BOX = new ItemElectricalComponentBox();
@@ -72,6 +79,13 @@ public class EICItems {
                     COPPER_SHOVEL,
                     COPPER_AXE,
                     COPPER_HOE,
+
+                    RUBY_PICKAXE,
+                    RUBY_SWORD,
+                    RUBY_SHOVEL,
+                    RUBY_AXE,
+                    RUBY_HOE,
+
                     RASP,
                     //Boxes
                     ELECTRICAL_COMPONENT_BOX,
