@@ -1,11 +1,13 @@
 package io.github.lattesyobon.eic;
 
+import io.github.lattesyobon.eic.block.BlockCopperOre;
 import io.github.lattesyobon.eic.init.EICTab;
 import net.minecraft.block.Block;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Blocks;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemBlock;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.client.model.ModelLoader;
@@ -34,7 +36,6 @@ public class EIC
     public static final String VERSION = "0.2.0";
 
     private static Logger logger;
-
 
     public static final CreativeTabs EIC_TAB = new EICTab();
 
@@ -71,7 +72,11 @@ public class EIC
                 SILICON,
                 COPPER_INGOT,
 
-                RASP
+                RASP,
+
+
+                new ItemBlock(COPPER_ORE).setRegistryName(EIC.MODID, "copper_ore"),
+                new ItemBlock(TERAHERTZ_ORE).setRegistryName(EIC.MODID, "terahertz_ore")
         };
         event.getRegistry().registerAll(item);
     }
