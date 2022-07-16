@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "iii",
+    "iRi",
+    "iii"
+  ],
+  "key": {
+    "i": {
+      "item": "minecraft:cobblestone"
+    },
+    "R": {
+      "item": "eic:stone_cutting_edge"
+    }
+  },
+  "result": {
+    "item": "eic:stone_cutting_edge",
+    "count": 1
+  }
+}
