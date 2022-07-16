@@ -28,7 +28,7 @@ public class EIC
 {
     public static final String MODID = "eic";
     public static final String NAME = "Electric Industry Craft";
-    public static final String VERSION = "1.0";
+    public static final String VERSION = "0.2.0";
 
     private static Logger logger;
 
@@ -47,6 +47,7 @@ public class EIC
     public void preInit(FMLPreInitializationEvent event)
     {
         logger = event.getModLog();
+        ModInfo.loadInfo(meta);
     }
 
     @EventHandler
@@ -60,6 +61,7 @@ public class EIC
     public void registerItems(RegistryEvent.Register<Item> event) {
         event.getRegistry().register(SILICON);
         event.getRegistry().register(STONE_STICK);
+        event.getRegistry().register(RASP);
     }
 
     @SubscribeEvent
@@ -67,5 +69,6 @@ public class EIC
     public void registerModels(ModelRegistryEvent event) {
         ModelLoader.setCustomModelResourceLocation(SILICON, 0, new ModelResourceLocation(new ResourceLocation(EIC.MODID, "silicon"), "inventory"));
         ModelLoader.setCustomModelResourceLocation(STONE_STICK, 0, new ModelResourceLocation(new ResourceLocation(EIC.MODID, "stone_stick"), "inventory"));
+        ModelLoader.setCustomModelResourceLocation(RASP,0,new ModelResourceLocation(new ResourceLocation(EIC.MODID,"rasp"),"inventory"));
     }
 }

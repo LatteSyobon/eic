@@ -1,1 +1,10 @@
+# EIC Translation File (English)
+
+# ItemGroup
+itemGroup.eic=EIC
+
+item.stone_stick.name=Stone Stick
+
 item.silicon.name=Silicon
+
+item.rasp.name=Rasp
