@@ -20,7 +20,7 @@ copy 1.15.2\src\main\resources\assets\eic\lang\* 1.14.4\src\main\resources\asset
 copy 1.15.2\src\main\resources\assets\eic\lang\* 1.12.2\src\main\resources\assets\eic\lang\
 
 echo Copy the recipe definition file (copy source 1.15.2)
-mkdir 1.12.2\src\main\resources\data\eic\recipes
+mkdir 1.12.2\src\main\resources\assets\eic\recipes
 mkdir 1.14.4\src\main\resources\data\eic\recipes
 copy 1.15.2\src\main\resources\data\eic\recipes\* 1.14.4\src\main\resources\data\eic\recipes\
-copy 1.15.2\src\main\resources\data\eic\recipes\* 1.12.2\src\main\resources\data\eic\recipes\
+copy 1.15.2\src\main\resources\data\eic\recipes\* 1.12.2\src\main\resources\assets\eic\recipes\
