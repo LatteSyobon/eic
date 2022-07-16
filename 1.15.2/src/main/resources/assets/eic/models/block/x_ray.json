@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"parent": "block/cube",
 	"textures": {
-		"0": "minecraft:block/stone"
+		"0": "minecraft:block/not_found"
 	},
 	"elements": [
 		{
