@@ -49,6 +49,33 @@ public class EIC
 
     public static final CreativeTabs EIC_TAB = new EICTab();
 
+    private static final Item[] item = {
+            STONE_STICK,
+            SEMI_CONDUCTOR,
+            CONDUCTING_WIRE,
+            STONE_CUTTING_EDGE,
+            SILICON_WAFER,
+
+            SILICON,
+            COPPER_INGOT,
+
+            RASP,
+
+            ELECTRICAL_COMPONENT_BOX,
+            SEMI_CONDUCTOR_BOX,
+            MYSTERY_COMPONENT_BOX,
+            SILICON_WAFER_BOX,
+
+
+            new ItemBlock(COPPER_ORE).setRegistryName(EIC.MODID, "copper_ore"),
+            new ItemBlock(TERAHERTZ_ORE).setRegistryName(EIC.MODID, "terahertz_ore")
+    };
+
+    private static final Block[] block = {
+            COPPER_ORE,
+            TERAHERTZ_ORE
+    };
+
     @Mod.Metadata(MODID)
     public static ModMetadata meta;
 
@@ -73,31 +100,11 @@ public class EIC
 
     @SubscribeEvent
     public void registerItems(RegistryEvent.Register<Item> event) {
-
-        final Item[] item = {
-                STONE_STICK,
-                SEMI_CONDUCTOR,
-                CONDUCTING_WIRE,
-                STONE_CUTTING_EDGE,
-
-                SILICON,
-                COPPER_INGOT,
-
-                RASP,
-
-
-                new ItemBlock(COPPER_ORE).setRegistryName(EIC.MODID, "copper_ore"),
-                new ItemBlock(TERAHERTZ_ORE).setRegistryName(EIC.MODID, "terahertz_ore")
-        };
         event.getRegistry().registerAll(item);
     }
 
     @SubscribeEvent
     public void registerBlocks(RegistryEvent.Register<Block> event) {
-        final Block[] block = {
-                COPPER_ORE,
-                TERAHERTZ_ORE
-        };
         event.getRegistry().registerAll(block);
     }
 
@@ -105,18 +112,14 @@ public class EIC
     @SideOnly(Side.CLIENT)
     public void registerModels(ModelRegistryEvent event) {
 
-        //Items
-        ModelLoader.setCustomModelResourceLocation(STONE_STICK, 0, new ModelResourceLocation(new ResourceLocation(EIC.MODID, "stone_stick"), "inventory"));
-        ModelLoader.setCustomModelResourceLocation(SEMI_CONDUCTOR, 0, new ModelResourceLocation(new ResourceLocation(EIC.MODID, "semi_conductor"), "inventory"));
-        ModelLoader.setCustomModelResourceLocation(CONDUCTING_WIRE, 0, new ModelResourceLocation(new ResourceLocation(EIC.MODID, "conducting_wire"), "inventory"));
-        ModelLoader.setCustomModelResourceLocation(STONE_CUTTING_EDGE, 0, new ModelResourceLocation(new ResourceLocation(EIC.MODID, "stone_cutting_edge"), "inventory"));
+        for (int i = 0; i < item.length; i++) {
+            logger.info("Registering items Entry {}",i);
+            ModelLoader.setCustomModelResourceLocation(item[i],0,new ModelResourceLocation(item[i].getRegistryName(),"inventory"));
+        }
 
-        ModelLoader.setCustomModelResourceLocation(SILICON, 0, new ModelResourceLocation(new ResourceLocation(EIC.MODID, "silicon"), "inventory"));
-        ModelLoader.setCustomModelResourceLocation(COPPER_INGOT, 0, new ModelResourceLocation(new ResourceLocation(EIC.MODID, "copper_ingot"), "inventory"));
-
-        ModelLoader.setCustomModelResourceLocation(RASP,0,new ModelResourceLocation(new ResourceLocation(EIC.MODID,"rasp"),"inventory"));
-        //Blocks
-        ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(COPPER_ORE), 0, new ModelResourceLocation(new ResourceLocation(EIC.MODID, "copper_ore"), "inventory"));
-        ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(TERAHERTZ_ORE), 0, new ModelResourceLocation(new ResourceLocation(EIC.MODID, "terahertz_ore"), "inventory"));
+        for (int i = 0; i < block.length; i++) {
+            logger.info("Registering blocks Entry {}",i);
+            ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block[1]), 0, new ModelResourceLocation(block[i].getRegistryName(), "inventory"));
+        }
     }
 }
