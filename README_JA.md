@@ -5,10 +5,10 @@
 
 1.15.2: 開発中  
 1.14.4: 開発待機中  
-1.12.2: 開発待機中
+1.12.2: 移植中
 
-## Notice
-This project is a multi-project.
-Therefore, once the Gradle project is synchronized, it will start synchronizing all projects.  
+## 告知事項
+このプロジェクトはGradleマルチプロジェクトです  
+そのため、いちどGradleプロジェクトを同期させるとすべてのバージョンのプロジェクトを同期し始めます。  
 
-If you only want to develop a certain version, change the include setting in the settings.gradle file in the top directory
+もしあなたが特定のバージョンのみを開発したい場合は、トップディレクトリにあるsettings.gradleファイルのinclude設定を変更してください
