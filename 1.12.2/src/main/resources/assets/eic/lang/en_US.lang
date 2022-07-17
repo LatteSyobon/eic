@@ -7,11 +7,16 @@ item.stone_stick.name=Stone Stick
 item.semi_conductor.name=Semi Conductor
 item.conducting_wire.name=Conducting Wire
 item.stone_cutting_edge.name=Stone Cutting Edge
+item.silicon_wafer.name=Silicon Wafer
 
 item.silicon.name=Silicon
 item.copper_ingot.name=Copper Ingot
 
 item.rasp.name=Rasp
+
+item.electrical_component_box.name=Electrical Component Box
+item.semi_conductor_box.name=Semi Conductor Box
+item.mystery_component_box.name=Mystery Component Box
 
 tile.terahertz_ore.name=Terahertz Ore
 tile.copper_ore.name=Copper Ore

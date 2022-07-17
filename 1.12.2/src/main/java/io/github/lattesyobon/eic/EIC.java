@@ -44,7 +44,7 @@ public class EIC
 {
     public static final String MODID = "eic";
     public static final String NAME = "Electric Industry Craft";
-    public static final String VERSION = "0.2.0";
+    public static final String VERSION = "0.4.0";
 
     private static Logger logger;
 
@@ -59,6 +59,14 @@ public class EIC
 
             SILICON,
             COPPER_INGOT,
+
+            TERAHERTZ_PICKAXE,
+            TERAHERTZ_SWORD,
+            TERAHERTZ_SHOVEL,
+            TERAHERTZ_AXE,
+            TERAHERTZ_HOE,
+
+            COPPER_PICKAXE,
 
             RASP,
 
