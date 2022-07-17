@@ -12,6 +12,18 @@ item.silicon_wafer.name=Silicon Wafer
 item.silicon.name=Silicon
 item.copper_ingot.name=Copper Ingot
 
+item.terahertz_pickaxe.name=Terahertz Pickaxe
+item.terahertz_sword.name=Terahertz Sword
+item.terahertz_shovel.name=Terahertz Shovel
+item.terahertz_axe.name=Terahertz Axe
+item.terahertz_hoe.name=Terahertz Hoe
+
+item.copper_pickaxe.name=Copper Pickaxe
+item.copper_sword.name=Copper Sword
+item.copper_shovel.name=Copper Shovel
+item.copper_axe.name=Copper Axe
+item.copper_hoe.name=Copper Hoe
+
 item.rasp.name=Rasp
 
 item.electrical_component_box.name=Electrical Component Box

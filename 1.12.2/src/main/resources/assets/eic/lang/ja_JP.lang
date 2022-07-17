@@ -12,6 +12,18 @@ item.silicon_wafer.name=シリコンウェハー
 item.silicon.name=シリコン
 item.copper_ingot.name=銅のインゴット
 
+item.terahertz_pickaxe.name=テラヘルツのツルハシ
+item.terahertz_sword.name=テラヘルツの剣
+item.terahertz_shovel.name=テラヘルツのシャベル
+item.terahertz_axe.name=テラヘルツの斧
+item.terahertz_hoe.name=テラヘルツのくわ
+
+item.copper_pickaxe.name=銅のツルハシ
+item.copper_sword.name=銅の剣
+item.copper_shovel.name=銅のシャベル
+item.copper_axe.name=銅の斧
+item.copper_hoe.name=銅のくわ
+
 item.rasp.name=やすり
 
 item.electrical_component_box.name=電気部品封入箱
