@@ -2,6 +2,7 @@ package io.github.lattesyobon.eic;
 
 
 import io.github.lattesyobon.eic.block.BlockCopperOre;
+import io.github.lattesyobon.eic.handlers.RegistryHandler;
 import io.github.lattesyobon.eic.init.EICTab;
 import net.minecraft.block.Block;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
@@ -62,6 +63,7 @@ public class EIC
     {
         logger = event.getModLog();
         ModInfo.loadInfo(meta);
+        RegistryHandler.Common();
     }
 
     @EventHandler
