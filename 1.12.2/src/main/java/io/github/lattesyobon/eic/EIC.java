@@ -77,12 +77,15 @@ public class EIC
 
 
             new ItemBlock(COPPER_ORE).setRegistryName(EIC.MODID, "copper_ore"),
-            new ItemBlock(TERAHERTZ_ORE).setRegistryName(EIC.MODID, "terahertz_ore")
+            new ItemBlock(TERAHERTZ_ORE).setRegistryName(EIC.MODID, "terahertz_ore"),
+//            new ItemBlock(CENTRIFUGE).setRegistryName(EIC.MODID, "centrifuge")
     };
 
     private static final Block[] block = {
             COPPER_ORE,
-            TERAHERTZ_ORE
+            TERAHERTZ_ORE,
+
+//            CENTRIFUGE
     };
 
     @Mod.Metadata(MODID)
