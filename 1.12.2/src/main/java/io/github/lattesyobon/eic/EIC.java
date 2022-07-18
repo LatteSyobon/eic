@@ -44,7 +44,7 @@ public class EIC
 {
     public static final String MODID = "eic";
     public static final String NAME = "Electric Industry Craft";
-    public static final String VERSION = "0.4.0";
+    public static final String VERSION = "0.4.5";
 
     private static Logger logger;
 
@@ -77,12 +77,20 @@ public class EIC
 
 
             new ItemBlock(COPPER_ORE).setRegistryName(EIC.MODID, "copper_ore"),
-            new ItemBlock(TERAHERTZ_ORE).setRegistryName(EIC.MODID, "terahertz_ore")
+            new ItemBlock(TERAHERTZ_ORE).setRegistryName(EIC.MODID, "terahertz_ore"),
+
+            new ItemBlock(CENTRIFUGE).setRegistryName(EIC.MODID,"centrifuge"),
+            new ItemBlock(COPPER_WIRE).setRegistryName(EIC.MODID,"copper_wire"),
+            new ItemBlock(X_RAY).setRegistryName(EIC.MODID,"x_ray")
     };
 
     private static final Block[] block = {
             COPPER_ORE,
-            TERAHERTZ_ORE
+            TERAHERTZ_ORE,
+
+            CENTRIFUGE,
+            COPPER_WIRE,
+            X_RAY
     };
 
     @Mod.Metadata(MODID)
