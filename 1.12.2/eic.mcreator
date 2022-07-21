@@ -1,10 +1,120 @@
 {
   "id_map": {},
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Ruby",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CopperIngot",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Eic",
+      "type": "tab",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ElectricalComponentBox",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MysteryComponentBox",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Rasp",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ConductingWire",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SemiConductor",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SemiConductorBoxRightClickedInAir",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SemiConductorBox",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.copperingot.name": "Copper Ingot",
+      "item.mysterycomponentbox.name": "Mystery Component Box",
+      "itemGroup.tabeic": "Eic",
+      "item.rasp.name": "Rasp",
+      "item.electricalcomponentbox.name": "Electrical Component Box",
+      "item.semiconductor.name": "Semi Conductor",
+      "item.semiconductorbox.name": "Semi Conductor Box",
+      "item.conductingwire.name": "Conducting Wire",
+      "item.ruby.name": "Ruby"
+    },
+    "ja_jp": {
+      "item.copperingot.name": "Copper Ingot",
+      "item.mysterycomponentbox.name": "Mystery Component Box",
+      "itemGroup.tabeic": "Eic",
+      "item.rasp.name": "Rasp",
+      "item.electricalcomponentbox.name": "Electrical Component Box",
+      "item.semiconductor.name": "Semi Conductor",
+      "item.semiconductorbox.name": "Semi Conductor Box",
+      "item.conductingwire.name": "Conducting Wire",
+      "item.ruby.name": "ÉãÉrÅ["
+    }
   },
   "workspaceSettings": {
     "modid": "eic",
