@@ -11,7 +11,8 @@
   },
 
   "1.12.2": {
-    "0.2.0": "Added items and recipes. (No change from the 1.15.2 version) After that, it's the same."
+    "0.4.0": "ore to be generated.\nAlso added terahertz items and silicon wafer boxes.\n(No change from the 1.15.2 version)",
+    "0.2.0": "Added items and recipes. \n(No change from the 1.15.2 version) \nAfter that, it's the same."
   },
 
   "promos": {

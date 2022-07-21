@@ -1,6 +1,7 @@
 package io.github.lattesyobon.eic.init;
 
 import io.github.lattesyobon.eic.item.*;
+import io.github.lattesyobon.eic.item.tool.*;
 import net.minecraft.item.Item;
 
 public class EICItems {
@@ -13,6 +14,14 @@ public class EICItems {
 
     public static final Item SILICON = new ItemSilicon();
     public static final Item COPPER_INGOT = new ItemCopperIngot();
+
+    public static final Item TERAHERTZ_PICKAXE = new ItemTerahertzPickaxe();
+    public static final Item TERAHERTZ_SWORD = new ItemTerahertzSword();
+    public static final Item TERAHERTZ_SHOVEL = new ItemTerahertzShovel();
+    public static final Item TERAHERTZ_AXE = new ItemTerahertzAxe();
+    public static final Item TERAHERTZ_HOE = new ItemTerahertzHoe();
+
+    public static final Item COPPER_PICKAXE = new ItemCopperPickaxe();
 
     public static final Item RASP = new ItemRasp();
 

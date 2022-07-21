@@ -44,7 +44,7 @@ public class EIC
 {
     public static final String MODID = "eic";
     public static final String NAME = "Electric Industry Craft";
-    public static final String VERSION = "0.2.0";
+    public static final String VERSION = "0.4.0";
 
     private static Logger logger;
 
@@ -60,6 +60,14 @@ public class EIC
             SILICON,
             COPPER_INGOT,
 
+            TERAHERTZ_PICKAXE,
+            TERAHERTZ_SWORD,
+            TERAHERTZ_SHOVEL,
+            TERAHERTZ_AXE,
+            TERAHERTZ_HOE,
+
+            COPPER_PICKAXE,
+
             RASP,
 
             ELECTRICAL_COMPONENT_BOX,
@@ -69,12 +77,15 @@ public class EIC
 
 
             new ItemBlock(COPPER_ORE).setRegistryName(EIC.MODID, "copper_ore"),
-            new ItemBlock(TERAHERTZ_ORE).setRegistryName(EIC.MODID, "terahertz_ore")
+            new ItemBlock(TERAHERTZ_ORE).setRegistryName(EIC.MODID, "terahertz_ore"),
+//            new ItemBlock(CENTRIFUGE).setRegistryName(EIC.MODID, "centrifuge")
     };
 
     private static final Block[] block = {
             COPPER_ORE,
-            TERAHERTZ_ORE
+            TERAHERTZ_ORE,
+
+//            CENTRIFUGE
     };
 
     @Mod.Metadata(MODID)
