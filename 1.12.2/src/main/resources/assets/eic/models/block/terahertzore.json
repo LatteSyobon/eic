@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "eic:blocks/terahertz_ore",
+    "up": "eic:blocks/terahertz_ore",
+    "north": "eic:blocks/terahertz_ore",
+    "east": "eic:blocks/terahertz_ore",
+    "south": "eic:blocks/terahertz_ore",
+    "west": "eic:blocks/terahertz_ore",
+    "particle": "eic:blocks/terahertz_ore"
+  }
+}

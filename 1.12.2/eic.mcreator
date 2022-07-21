@@ -88,31 +88,127 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "SiliconWafer",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SiliconWaferBox",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SiliconWaferBoxRightClickedInAir",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "StoneCuttingEdge",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "StoneStick",
+      "type": "item",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CopperOre",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RubyOre",
+      "type": "block",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TerahertzOre",
+      "type": "block",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SlicedSiliconDisk",
+      "type": "item",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.stonestick.name": "Stone Stick",
       "item.copperingot.name": "Copper Ingot",
+      "item.slicedsilicondisk.name": "Sliced Silicon Disk",
+      "item.rasp.name": "Rasp",
+      "item.semiconductor.name": "Semi Conductor",
+      "item.stonecuttingedge.name": "Stone Cutting Edge",
+      "item.semiconductorbox.name": "Semi Conductor Box",
+      "tile.copperore.name": "Copper Ore",
+      "item.conductingwire.name": "Conducting Wire",
+      "tile.terahertzore.name": "Terahertz Ore",
+      "item.siliconwafer.name": "Silicon Wafer",
+      "tile.rubyore.name": "Ruby Ore",
       "item.mysterycomponentbox.name": "Mystery Component Box",
       "itemGroup.tabeic": "Eic",
-      "item.rasp.name": "Rasp",
       "item.electricalcomponentbox.name": "Electrical Component Box",
-      "item.semiconductor.name": "Semi Conductor",
-      "item.semiconductorbox.name": "Semi Conductor Box",
-      "item.conductingwire.name": "Conducting Wire",
+      "item.siliconwaferbox.name": "Silicon Wafer Box",
       "item.ruby.name": "Ruby"
     },
     "ja_jp": {
-      "item.copperingot.name": "Copper Ingot",
-      "item.mysterycomponentbox.name": "Mystery Component Box",
-      "itemGroup.tabeic": "Eic",
-      "item.rasp.name": "Rasp",
-      "item.electricalcomponentbox.name": "Electrical Component Box",
-      "item.semiconductor.name": "Semi Conductor",
-      "item.semiconductorbox.name": "Semi Conductor Box",
-      "item.conductingwire.name": "Conducting Wire",
+      "item.stonestick.name": "石の棒",
+      "item.copperingot.name": "銅のインゴット",
+      "item.slicedsilicondisk.name": "切断済みシリコンディスク",
+      "item.rasp.name": "やすり",
+      "item.semiconductor.name": "半導体",
+      "item.stonecuttingedge.name": "石の刃",
+      "item.semiconductorbox.name": "半導体封入箱",
+      "tile.copperore.name": "銅鉱石",
+      "item.conductingwire.name": "導線",
+      "tile.terahertzore.name": "テラヘルツ鉱石",
+      "item.siliconwafer.name": "シリコンウェハ",
+      "tile.rubyore.name": "ルビー鉱石",
+      "item.mysterycomponentbox.name": "謎の部品封入箱",
+      "itemGroup.tabeic": "EIC",
+      "item.electricalcomponentbox.name": "電気部品封入箱",
+      "item.siliconwaferbox.name": "シリコンウェハ封入箱",
       "item.ruby.name": "ルビー"
     }
   },

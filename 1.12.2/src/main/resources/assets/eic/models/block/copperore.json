@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "eic:blocks/copper_ore",
+    "up": "eic:blocks/copper_ore",
+    "north": "eic:blocks/copper_ore",
+    "east": "eic:blocks/copper_ore",
+    "south": "eic:blocks/copper_ore",
+    "west": "eic:blocks/copper_ore",
+    "particle": "eic:blocks/copper_ore"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "eic:blocks/ruby_ore",
+    "up": "eic:blocks/ruby_ore",
+    "north": "eic:blocks/ruby_ore",
+    "east": "eic:blocks/ruby_ore",
+    "south": "eic:blocks/ruby_ore",
+    "west": "eic:blocks/ruby_ore",
+    "particle": "eic:blocks/ruby_ore"
+  }
+}
