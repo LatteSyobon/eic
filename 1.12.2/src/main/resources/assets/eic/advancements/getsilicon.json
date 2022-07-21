@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "item": "eic:silicon"
+    },
+    "title": {
+      "translate": "advancements.getsilicon.title"
+    },
+    "description": {
+      "translate": "advancements.getsilicon.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "getsilicon": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "eic:silicon"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "eic:copperingotadvancement"
+}

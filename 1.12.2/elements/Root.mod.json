@@ -1,0 +1,25 @@
+{
+  "_fv": 6,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "The Beginning of Industry",
+    "achievementDescription": "Create a stone rod",
+    "achievementIcon": {
+      "value": "CUSTOM:StoneStick"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardFunction": "No function",
+    "rewardXP": 1,
+    "achievementType": "task",
+    "parent": {
+      "value": "No parent: root"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"item_consumed\" x=\"55\" y=\"25\"><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:StoneStick</field></block></value><next><block type=\"advancement_trigger\" deletable=\"false\"/></next></block></xml>"
+  }
+}

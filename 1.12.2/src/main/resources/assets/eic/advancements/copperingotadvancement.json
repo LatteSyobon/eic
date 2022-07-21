@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "item": "eic:copperingot"
+    },
+    "title": {
+      "translate": "advancements.copperingotadvancement.title"
+    },
+    "description": {
+      "translate": "advancements.copperingotadvancement.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "copperingotadvancement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "eic:copperingot"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "eic:root"
+}
