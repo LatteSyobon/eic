@@ -1,64 +1,9 @@
 {
-  "itemGroup.eic": "EIC",
-
-  "advancements.eic.root.title": "Electric Industry Craft",
-  "advancements.eic.root.description": "石の棒を入手する",
-
-  "advancements.eic.copper_ore.title": "機械工業の始まり",
-  "advancements.eic.copper_ore.description": "銅のインゴットを入手する",
-
-  "advancements.eic.conducting_wire.title": "導線づくり",
-  "advancements.eic.conducting_wire.description": "銅の導線を作る",
-
-  "advancements.eic.get_silicon.title": "シリコン！",
-  "advancements.eic.get_silicon.description": "ついに手に入れた",
-
-  "advancements.eic.copper_tool.title": "銅のツール！",
-  "advancements.eic.copper_tool.description": "あまり使い物にならない",
-
-  "item.eic.semi_conductor": "半導体",
-  "item.eic.stone_stick": "石の棒",
-  "item.eic.conducting_wire": "導線",
-  "item.eic.stone_cutting_edge": "石の刃",
-  "item.eic.sliced_silicon_disk": "切断済みシリコンディスク",
-  "item.eic.silicon_wafer": "シリコンウェハー",
-
-  "item.eic.silicon": "シリコン",
-  "item.eic.silicon.desc": "半導体などの原材料になります",
-  "item.eic.copper_ingot":  "銅のインゴット",
-  "item.eic.ruby": "ルビー",
-
-  "item.eic.terahertz_pickaxe": "テラヘルツのツルハシ",
-  "item.eic.terahertz_sword": "テラヘルツの剣",
-  "item.eic.terahertz_shovel": "テラヘルツのシャベル",
-  "item.eic.terahertz_axe": "テラヘルツの斧",
-  "item.eic.terahertz_hoe": "テラヘルツのくわ",
-
-  "item.eic.copper_pickaxe": "銅のツルハシ",
-  "item.eic.copper_sword": "銅の剣",
-  "item.eic.copper_shovel": "銅のシャベル",
-  "item.eic.copper_axe": "銅の斧",
-  "item.eic.copper_hoe": "銅のくわ",
-
-  "item.eic.ruby_pickaxe": "ルビーのツルハシ",
-  "item.eic.ruby_sword": "ルビーの剣",
-  "item.eic.ruby_shovel": "ルビーのシャベル",
-  "item.eic.ruby_axe": "ルビーの斧",
-  "item.eic.ruby_hoe": "ルビーのくわ",
-
-  "item.eic.rasp": "やすり",
-
-  "item.eic.electrical_component_box": "電気部品封入箱",
-  "item.eic.semi_conductor_box": "半導体封入箱",
-  "item.eic.semi_conductor_box.desc": "半導体を入手します",
-  "item.eic.mystery_component_box": "謎の部品封入箱",
-  "item.eic.mystery_component_box.desc": "謎の部品を入手します",
-  "item.eic.silicon_wafer_box": "シリコンウェハー封入箱",
-  "item.eic.silicon_wafer_box.desc": "シリコンウェハーを入手します",
-
-  "block.eic.terahertz_ore": "テラヘルツ鉱石",
-  "block.eic.copper_ore": "銅鉱石",
-  "block.eic.ruby_ore": "ルビー鉱石",
-
-  "block.eic.centrifuge": "遠心分離機"
+  "item.eic.electrical_component_box": "Electrical Component Box",
+  "itemGroup.tabeic": "EIC",
+  "item.eic.copper_ingot": "Copper Ingot",
+  "item.eic.silicon": "ケイ素",
+  "item.eic.rasp": "Rasp",
+  "item.eic.mystery_component_box": "Mystery Component Box",
+  "item.eic.ruby": "Ruby"
 }
