@@ -1,0 +1,46 @@
+
+package io.github.lattesyobon.eic.item;
+
+import net.minecraftforge.registries.ObjectHolder;
+
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.Item;
+import net.minecraft.block.BlockState;
+
+import io.github.lattesyobon.eic.EicModElements;
+
+@EicModElements.ModElement.Tag
+public class ElectricalComponentBoxItem extends EicModElements.ModElement {
+	@ObjectHolder("eic:electrical_component_box")
+	public static final Item block = null;
+	public ElectricalComponentBoxItem(EicModElements instance) {
+		super(instance, 4);
+	}
+
+	@Override
+	public void initElements() {
+		elements.items.add(() -> new ItemCustom());
+	}
+	public static class ItemCustom extends Item {
+		public ItemCustom() {
+			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(64));
+			setRegistryName("electrical_component_box");
+		}
+
+		@Override
+		public int getItemEnchantability() {
+			return 0;
+		}
+
+		@Override
+		public int getUseDuration(ItemStack itemstack) {
+			return 0;
+		}
+
+		@Override
+		public float getDestroySpeed(ItemStack par1ItemStack, BlockState par2Block) {
+			return 1F;
+		}
+	}
+}

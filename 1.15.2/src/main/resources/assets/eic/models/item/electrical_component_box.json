@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "eic:item/electrical_component_box"
+    "layer0": "eic:items/electrical_component_box"
   }
 }

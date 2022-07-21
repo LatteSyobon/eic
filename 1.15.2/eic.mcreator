@@ -1,0 +1,109 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "Eic",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eic"
+    },
+    {
+      "name": "Silicon",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "silicon"
+    },
+    {
+      "name": "CopperIngot",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "copper_ingot"
+    },
+    {
+      "name": "ElectricalComponentBox",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "electrical_component_box"
+    },
+    {
+      "name": "MysteryComponentBox",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mystery_component_box"
+    },
+    {
+      "name": "Ruby",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby"
+    },
+    {
+      "name": "Rasp",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rasp"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.eic.electrical_component_box": "Electrical Component Box",
+      "itemGroup.tabeic": "EIC",
+      "item.eic.copper_ingot": "Copper Ingot",
+      "item.eic.silicon": "Silicon",
+      "item.eic.rasp": "Rasp",
+      "item.eic.mystery_component_box": "Mystery Component Box",
+      "item.eic.ruby": "Ruby"
+    },
+    "ja_jp": {
+      "item.eic.electrical_component_box": "Electrical Component Box",
+      "itemGroup.tabeic": "EIC",
+      "item.eic.copper_ingot": "Copper Ingot",
+      "item.eic.silicon": "ÉPÉCëf",
+      "item.eic.rasp": "Rasp",
+      "item.eic.mystery_component_box": "Mystery Component Box",
+      "item.eic.ruby": "Ruby"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "eic",
+    "modName": "EIC",
+    "version": "0.6.0",
+    "author": "LatteSyobon",
+    "websiteURL": "https://github.com/LatteSyobon/eic",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "updateURL": "https://raw.githubusercontent.com/LatteSyobon/eic/main/version/EICVersionCheck.json",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.15.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "io.github.lattesyobon.eic",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000432115
+}
